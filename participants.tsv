@@ -2,3 +2,6 @@ participant_id	sex	group
 sub-104	f	NREM
 sub-105	m	WAKE
 sub-106	f	WAKE
+sub-107	f	REM
+sub-108	m	REM
+sub-109	m	NREM

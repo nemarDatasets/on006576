@@ -1,4 +1,4 @@
-NOTE: This version contains datasets for 49 of the 69 participants. New versions will be created as more data are uploaded. 
+NOTE: This version contains datasets for 59 of the 69 participants. New versions will be created as more data are uploaded. 
 
 This dataset contains the fMRI and EEG data for E.A. McDevitt, G. Kim, N.B. Turk-Browne, K.A. Norman (2026). The role of rapid eye movement sleep in neural differentiation of memories in the hippocampus. Journal of Cognitive Neuroscience, 10.1162/jocn.a.82
 

@@ -1,45 +1,99 @@
 {
   "version": "2.0",
-  "dataset_id": "on006576",
-  "source": "openneuro",
-  "source_id": "ds006576",
+  "pipeline_stage": "validated",
   "title": "The role of REM sleep in neural differentiation of memories in the hippocampus",
-  "authors": {
-    "Elizabeth A. McDevitt": {},
-    "Ghootae Kim": {},
-    "Nicholas B. Turk-Browne": {},
-    "Kenneth A. Norman": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Elizabeth A. McDevitt": {
+      "orcid": "0000-0001-9112-3775"
+    },
+    "Ghootae Kim": {},
+    "Nicholas B. Turk-Browne": {
+      "orcid": "0000-0001-7519-3001"
+    },
+    "Kenneth A. Norman": {
+      "orcid": "0000-0002-5887-9682"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006576.v1.0.5",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006576",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006576",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1162/jocn.a.82",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "anat",
-    "eeg",
-    "fmap",
-    "func"
-  ],
-  "datatypes": [
-    "anat",
-    "eeg",
-    "fmap",
-    "func"
   ],
   "funding_references": [
     {
-      "funder_name": "NIMH R01-MH069456"
+      "funder_name": "NIMH",
+      "award_number": "R01-MH069456"
     },
     {
-      "funder_name": "NIMH K99-MH126154"
+      "funder_name": "NIMH",
+      "award_number": "K99-MH126154"
     }
   ],
-  "acknowledgements": "Funding for the acquisition of the data was provided in part by the Regina and John Scully ’66 Center for the Neuroscience of Mind and Behavior."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg",
+    "anat",
+    "fmap",
+    "func"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "697.7 GB (2349 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".gz",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "description": "This dataset comprises fMRI and EEG recordings from 69 participants investigating the role of rapid eye movement (REM) sleep in neural differentiation of memories within the hippocampus. Participants completed three fMRI scans and one EEG session, with the EEG session containing either sleep data from a nap or quiet wake recordings depending on experimental condition. The study examines how sleep-dependent processes contribute to memory consolidation and neural representation in the hippocampus.",
+  "methods_description": "The dataset includes 69 participants with three fMRI scans and one EEG session per participant. Depending on the participant's condition, the EEG session contains either sleep data from a nap or data recorded during a quiet wake session. Detailed acquisition methods are provided in the associated publication.",
+  "keywords": [
+    {
+      "term": "fMRI"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "REM sleep"
+    },
+    {
+      "term": "Memory Consolidation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069077"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "neural differentiation"
+    }
+  ],
+  "source_hash": "189fe792df55197c92007321abb4157ab4864abdd35c705eec8fb7bb115cba9c"
 }

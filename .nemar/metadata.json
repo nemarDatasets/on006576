@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The role of REM sleep in neural differentiation of memories in the hippocampus",
-  "description": "This dataset comprises fMRI and EEG recordings from 69 participants investigating the role of rapid eye movement (REM) sleep in neural differentiation of memories within the hippocampus. Participants completed three fMRI scans and one EEG session, with the EEG session containing either sleep data from a nap or quiet wake recordings depending on experimental condition. The study examines how sleep-dependent processes contribute to memory consolidation and neural representation in the hippocampus.",
-  "methods_description": "The dataset includes 69 participants with three fMRI scans and one EEG session per participant. Depending on the participant's condition, the EEG session contains either sleep data from a nap or data recorded during a quiet wake session. Detailed acquisition methods are provided in the associated publication.",
+  "description": "This multimodal dataset contains fMRI and EEG data from 69 participants examining the role of REM sleep in the neural differentiation of hippocampal memory representations. Each participant completed three fMRI scan sessions and one EEG session, during which either nap-based sleep or quiet wakefulness data were recorded depending on experimental condition. The dataset supports investigation of how sleep-related neural processes contribute to memory consolidation and differentiation in the hippocampus.",
+  "methods_description": "Data collection included three fMRI scans and one EEG session per participant. The EEG session recorded either sleep (nap) or quiet wake data depending on the participant's assigned condition. Participants also completed behavioral tasks including a decision task and a reward prediction task during fMRI sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,23 +20,24 @@
   },
   "keywords": [
     {
-      "term": "fMRI"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "REM sleep"
+      "term": "fMRI"
     },
     {
-      "term": "Memory Consolidation",
+      "term": "REM Sleep Behavior Disorder",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069077"
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020187"
     },
     {
       "term": "Hippocampus",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "memory consolidation"
     },
     {
       "term": "neural differentiation"

@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The role of REM sleep in neural differentiation of memories in the hippocampus",
-  "description": "This multimodal dataset contains fMRI and EEG data from 69 participants examining the role of REM sleep in the neural differentiation of hippocampal memory representations. Each participant completed three fMRI scan sessions and one EEG session, during which either nap-based sleep or quiet wakefulness data were recorded depending on experimental condition. The dataset supports investigation of how sleep-related neural processes contribute to memory consolidation and differentiation in the hippocampus.",
+  "description": "This dataset contains fMRI and EEG recordings from 69 participants examining the role of rapid eye movement (REM) sleep in the neural differentiation of memories in the hippocampus. Each participant completed three fMRI scans and one EEG session, which contained either nap sleep data or quiet wake data depending on the participant's condition.",
   "methods_description": "Data collection included three fMRI scans and one EEG session per participant. The EEG session recorded either sleep (nap) or quiet wake data depending on the participant's assigned condition. Participants also completed behavioral tasks including a decision task and a reward prediction task during fMRI sessions.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -20,10 +20,10 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "fMRI"
     },
     {
-      "term": "fMRI"
+      "term": "EEG"
     },
     {
       "term": "REM Sleep Behavior Disorder",
@@ -37,10 +37,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "memory consolidation"
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
       "term": "neural differentiation"
+    },
+    {
+      "term": "nap"
     }
   ],
   "related_identifiers": [
@@ -73,6 +78,9 @@
     {
       "funder_name": "NIMH",
       "award_number": "K99-MH126154"
+    },
+    {
+      "funder_name": "Regina and John Scully '66 Center for the Neuroscience of Mind and Behavior"
     }
   ],
   "resource_type_general": "Dataset",
@@ -84,7 +92,7 @@
     "func"
   ],
   "sizes": [
-    "697.7 GB (2349 files)"
+    "650 GB (2349 files)"
   ],
   "formats": [
     ".eeg",
